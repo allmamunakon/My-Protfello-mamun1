@@ -5,9 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+ 
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.background{
+  background-color: #065350;
+  /* background-color: rgb(43,44,47); */
+}  
+body {
+  --outer-shadow: 3px 3px 3px #5ac0c4, -3px -3px 3px #411c1c;
+  --outer-shadow-0: 0 0 0 #02022c, 0 0 0 #363636;
+  --inner-shadow: inset 3px 3px 3px #0a0d1a, inset -3px -3px 3px #363636;
+  --inner-shadow-0: inset 0 0 0 #0c0c0e, inset 0 0 0 #363636;
+}
+/* body {
+  --outer-shadow: 3px 3px 3px #131314, -3px -3px 3px #363636;
+  --outer-shadow-0: 0 0 0 #141416, 0 0 0 #363636;
+  --inner-shadow: inset 3px 3px 3px #222327, inset -3px -3px 3px #363636;
+  --inner-shadow-0: inset 0 0 0 #222327, inset 0 0 0 #363636;
+} */

@@ -1,0 +1,166 @@
+.degin{
+    font-size: 15px;
+}
+
+.link-item-Portfolio{
+  
+    height: 300px;
+    width: 330px;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--skin-color);
+    background-color: transparent;
+    line-height: 1.5;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    border:none;
+    color: beige;
+    text-decoration: none;
+ }
+ .img-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ /* element.style {
+} */
+
+.displayFlex {
+    display: flex;
+    justify-content:space-between;
+    justify-items: auto;
+    padding-top: 18px;
+    
+}
+.dis12:hover  {
+    transform: translateY(-23px);
+    color: blue;
+}
+.dis12 {
+    border-radius: 5px;
+    width: 100%;
+    transition: all 0.3s ease;
+    position: relative;
+    
+}
+
+.dis13:hover  {
+    padding-top: 3px;
+    transform: translateY(-35px);
+    
+}
+.dis13 {
+    border-radius: 5px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.dis13 {
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    /* color: var(--skin-color); */
+    color: rgb(27, 186, 197); 
+    transition: all 0.3s ease;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    /* transform: translateY(5px); */
+    z-index: -1;
+    /* opacity: 0; */
+}
+
+
+dis1 {
+    vertical-align: middle;
+    max-width: 100%;
+}
+/* .portfolio-section .portfolio-item-inner:hover .portfolio-item-img img {
+    transform: translateY(-25px);
+}
+.portfolio-section .portfolio-item-img img {
+    border-radius: 5px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+img {
+    vertical-align: middle;
+    max-width: 100%;
+} */
+/* *:not(i) {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+user agent stylesheet
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.portfolio-section .portfolio-item-inner {
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+} */
+
+.btn-2{
+    height: 280px;
+    width: 280px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 500;
+     color: var(--skin-color); 
+    /* background-color: blueviolet; */
+    /* background-color: transparent;
+    #0d6efd */
+    line-height: 1.5;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    border:none;
+ }
+ .btn-1:after{
+    border-radius: 30px;
+ }
+ .NetBackground{
+    background-color: rgb(55, 43, 226);
+ }
+ /* .NetBackground{
+    background-color: blueviolet;
+ } */
+ .link-item-3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   padding: 10px 10px;
+  
+
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--skin-color);
+    background-color: transparent;
+    line-height: 1.5;
+    cursor: pointer;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    border: none;
+    color: beige;
+    text-decoration: none;
+}
+
+.link-item-3 ::after {
+    border-radius: 50px;
+    
+}

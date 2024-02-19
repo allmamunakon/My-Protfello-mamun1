@@ -1,0 +1,136 @@
+/* .m-scroll {
+	display: flex;
+	position: relative;
+	width: 800px;
+	height: 600px;
+	margin: auto;
+	background-color: #D34444;
+	overflow: hidden;
+	z-index: 1;
+  
+	  &__title {
+	  display: flex;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	  align-items: center;
+	  justify-content: flex-start;
+	  width: 100%;
+	  height: 100%;
+	  white-space: nowrap;
+	  transform: scale(2);
+	  transition: all 1s ease;
+	  & > div {
+		display: flex;
+		animation: scrollText 33s infinite linear;
+	  }
+	  h1 {
+		margin: 0;
+		font-size: 40px;
+		color: rgba(255,255,255,1);
+		transition: all 2s ease;
+		}
+		a {
+		  text-decoration:none;
+		  color:white;
+		  }
+		a:hover{
+		  -webkit-text-stroke: 1px white;
+		  color: transparent;
+		}
+	}
+  } 
+  /* Make it a marquee */
+ .marquee {
+	margin: 0 auto;
+	white-space: nowrap;
+	overflow: hidden;
+  }
+  
+  .marquee span {
+	display: inline-block;
+	padding-left: 100%;
+	animation: marquee 40s linear infinite;
+  } 
+  
+  /* Make it move */
+  @keyframes marquee {
+	
+	10% {
+	  transform: translate(0, 0);
+	}
+  
+	100% {
+	  transform: translate(-100%, 10%);
+	}
+	
+  }
+
+  .NewsBacground{
+
+	background-color: blue;
+	display: flex;
+	justify-content: center;
+	color: #f0e8e8;
+	align-items: center;
+  }
+
+
+  .align-items-center{
+	align-items: center;
+ }
+ .link-itemInfine{
+	padding: 5px;
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--skin-color);
+	background-color: transparent;
+	line-height: 1.5;
+	cursor: pointer;
+	border-radius: 0px;
+	transition: all 0.3s ease;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	border:none;
+	color: beige;
+	text-decoration: none;
+ }
+ 
+ 
+ .link-item:after{ 
+	border-radius: 30px;
+   
+ }
+ .link-item-Service::after {
+ border-radius: 50px;
+}
+
+
+ 
+ .outer-shadow-Service {
+    box-shadow: var(--outer-shadow);
+ }
+ .inner-shadow{
+    box-shadow: var(--inner-shadow);
+ }
+ .hover-in-shadow{
+    position: relative;
+    z-index: 1;
+ }
+ .hover-in-shadow:hover{
+    box-shadow: var(--outer-shadow-0);  
+ }
+ .hover-in-shadow:after{
+    content: '';
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+    z-index: -1;
+ }
+ .hover-in-shadow:hover:after{
+    box-shadow: var(--inner-shadow);
+ }

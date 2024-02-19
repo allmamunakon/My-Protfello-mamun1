@@ -1,0 +1,95 @@
+.link-item-Service{
+  
+    height: 300px;
+    width: 330px;
+    padding: 10px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--skin-color);
+    background-color: transparent;
+    line-height: 1.5;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    display: inline-block;
+    border:none;
+    color: beige;
+    text-decoration: none;
+ }
+
+ .dis{
+    display: flex;
+    justify-content:space-evenly;
+    justify-items: auto;
+    padding-top: 18px;
+
+ }
+
+ .dis1{
+   height: 70px;
+   width: 70px;
+   border: 1px solid #0a0a0a;
+   border-radius: 50px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   font-size: 40px;
+   /* padding-bottom: 5px; */
+  
+   
+   
+  
+
+ }
+ .dis1::after{
+   height: 50px;
+   width: 50px;
+   border: 1px solid #0a0a0a;
+   border-radius: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 20px;
+  
+
+ }
+ .dis2{
+    text-align: center;
+    padding-top: 25px ;
+    
+    }
+
+ 
+ .link-item-Service::after {
+ border-radius: 50px;
+}
+
+
+ 
+ .outer-shadow-Service {
+    box-shadow: var(--outer-shadow);
+ }
+ .inner-shadow{
+    box-shadow: var(--inner-shadow);
+ }
+ .hover-in-shadow{
+    position: relative;
+    z-index: 1;
+ }
+ .hover-in-shadow:hover{
+    box-shadow: var(--outer-shadow-0);  
+ }
+ .hover-in-shadow:after{
+    content: '';
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+    z-index: -1;
+ }
+ .hover-in-shadow:hover:after{
+    box-shadow: var(--inner-shadow);
+ }

@@ -1,0 +1,26 @@
+/* .about{
+    padding-right: 488px;
+    padding-top: 40px;
+}
+.about1{
+    padding-left: 488px;
+    
+} */
+
+.row{
+    height: 250px;
+}
+
+.back {
+    height: 200px;
+    width: 250px;
+    background-color: #35c2f8;
+    border-radius: 50%;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+  
+}
