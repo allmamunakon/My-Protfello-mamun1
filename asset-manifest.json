@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/My-Protfello-mamun1/static/css/main.0c0c6bbf.css",
+    "main.js": "/My-Protfello-mamun1/static/js/main.4a26d118.js",
+    "static/js/592.7f72a991.chunk.js": "/My-Protfello-mamun1/static/js/592.7f72a991.chunk.js",
+    "static/media/mamun .png": "/My-Protfello-mamun1/static/media/mamun .f94fd28daedcd26e5b32.png",
+    "static/media/mamunakon2.jpg": "/My-Protfello-mamun1/static/media/mamunakon2.d0142ae1efca874bed08.jpg",
+    "index.html": "/My-Protfello-mamun1/index.html",
+    "main.0c0c6bbf.css.map": "/My-Protfello-mamun1/static/css/main.0c0c6bbf.css.map",
+    "main.4a26d118.js.map": "/My-Protfello-mamun1/static/js/main.4a26d118.js.map",
+    "592.7f72a991.chunk.js.map": "/My-Protfello-mamun1/static/js/592.7f72a991.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c0c6bbf.css",
+    "static/js/main.4a26d118.js"
+  ]
+}
